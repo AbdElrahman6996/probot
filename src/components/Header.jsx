@@ -12,9 +12,9 @@ const Header = () => {
             <a href="/"><img src={LogoSvg} alt="" /></a>
         </div>
         <nav className='app-navbar'>
-            <a href="/"><img src={CommandIcon} alt="commands-icon" />Commands</a>
-            <a href="/"><img src={SupportIcon} alt="support-icon" />Supportr</a>
-            <a href="/"><img src={UsFlag} alt="language-icon" /></a>
+            <a href="/" className='navlink'><img src={CommandIcon} alt="commands-icon" />Commands</a>
+            <a href="/" className='navlinks'><img src={SupportIcon} alt="support-icon" />Support</a>
+            <a href="/"><img className='usflag' src={UsFlag} alt="language-icon" /></a>
         </nav>
     </header>
   )
