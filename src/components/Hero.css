@@ -1,0 +1,63 @@
+main {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main > .txt-container > h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.main-btn-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    position: relative;
+}
+.main-btn-container a:hover{
+ margin-top: -20px;
+ transition: margin-top 0.25s ease-in-out;
+}
+
+.add-to-discord-btn {
+    background: linear-gradient(90deg,#6850ff,#a750ff);
+    font-weight: 500;
+    color: #fff;
+    font-size: 17px!important;
+    padding: 0 27px;
+    display: inline-block;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    height: 58px;
+    outline: none;
+}
+.add-to-discord-btn img {
+    margin-right: 10px;
+}
+
+.hero-login-btn{
+    border: 4px solid #233442;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #839bad;
+    padding: 0 27px;
+    height: 58px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
