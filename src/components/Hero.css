@@ -6,6 +6,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    overflow: hidden;
 }
 main > .txt-container > h1 {
     font-weight: 700;
@@ -21,6 +22,8 @@ main > .txt-container > h1 {
     justify-content: center;
     gap: 28px;
     position: relative;
+    /* border: 2px solid green; */
+    height: 100px;
 }
 .main-btn-container a:hover{
  margin-top: -20px;

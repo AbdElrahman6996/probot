@@ -6,6 +6,7 @@ header {
     justify-content: center;
     background: #1f1f25;
     position: relative;
+    overflow: hidden;
 }
 
 .app-navbar {

@@ -1,0 +1,123 @@
+.whyprobot{
+    width: 85vw;
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.left-why{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.left-why > .txt-container h4{
+    font-weight: 600;
+    color: #7e67ff;
+    font-size: 2em;
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.left-why > .txt-container h4 span{
+    height: 43px;
+    z-index: -1;
+    width: 90px;
+    background: #35307a;
+    position: absolute;
+}
+.left-why > .txt-container h4 div{
+    color: #a89fe5;
+    display: inline-block;
+}
+.left-why > .txt-container p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 20px;
+    overflow: hidden;
+    height: 100px;
+}
+.left-why > .ball{
+    position: absolute;
+    left: -65px;
+    bottom: 0;
+    width: 90%;
+}
+.left-why > .ball img {
+    width: 90%;
+}
+
+.center-why{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+.center-why div{
+    overflow: hidden;
+    height: 140px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.center-why h6 {
+    font-weight: 500;
+    font-size: 19px!important;
+    line-height: 23px;
+    color: #fff;
+    height: 24px;
+    overflow: hidden;
+}
+.center-why p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #839bad;
+    height: 70px;
+    overflow: hidden;
+}
+.right-why{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-why div{
+    overflow: hidden;
+    height: 140px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.right-why h6 {
+    font-weight: 500;
+    font-size: 19px!important;
+    line-height: 23px;
+    color: #fff;
+    height: 24px;
+    overflow: hidden;
+}
+.right-why p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #839bad;
+    height: 70px;
+    overflow: hidden;
+}
