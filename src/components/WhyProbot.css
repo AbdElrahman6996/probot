@@ -49,12 +49,17 @@
 }
 .left-why > .ball{
     position: absolute;
-    left: -65px;
     bottom: 0;
-    width: 90%;
+    width: 100%;
+    overflow: visible;
+    height: 400px;
 }
 .left-why > .ball img {
-    width: 90%;
+    width: 400px;
+    z-index: 999;
+    position: absolute;
+    left: -60px;
+
 }
 
 .center-why{
